@@ -72,7 +72,7 @@ set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} ${GUILE_CFLAGS} -Wall -Werror -s
 # Vous devez editer les lignes suivantes pour y mettre vos logins
 # et le numéro de la variante que vous avez choisi
 #########
-set(VARIANTE_LOGINS carlinc lenormju)
+set(VARIANTE_LOGINS carlinc)
 set(VARIANTE_SUJET 3)
 ###
 list(SORT VARIANTE_LOGINS)

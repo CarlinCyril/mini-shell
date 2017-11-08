@@ -150,7 +150,7 @@ int question6_executer(char *line)
 			sprintf(exec_path, bin_path);
 			// suivi du nom de la commande
 			strcat(exec_path, cmd->seq[commande][0]);
-			
+
 			// s'il y a plus d'une commande, il y aura des pipes à créer
 			if(nombre_commandes > 1) {
 				// la première commande écrira seulement dans le pipe

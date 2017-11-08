@@ -1,7 +1,7 @@
 #ifndef VARIANTE_H
 #define VARIANTE_H
 
-#define LOGINS carlinc;lenormju
+#define LOGINS carlinc
 #define SUJET 3
 #define USE_GUILE 1
 #define USE_GNU_READLINE 1

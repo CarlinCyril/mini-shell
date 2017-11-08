@@ -243,10 +243,10 @@ struct cmdline *parsecmd(char **pline)
 	free(line);
 	*pline = NULL;
 
-	if (!s)
+	//if (!s)
 		static_cmdline = s = xmalloc(sizeof(struct cmdline));
-	else
-		freecmd(s);
+	//else
+		//freecmd(s);
 	s->err = 0;
 	s->in = 0;
 	s->out = 0;
